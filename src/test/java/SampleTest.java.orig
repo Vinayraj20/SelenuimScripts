@@ -23,7 +23,11 @@ public class SampleTest {
     @AfterMethod
     public void tearDown() {
         if (driver != null) {
+<<<<<<< HEAD
+            driver.quit();   //closing the driver
+=======
             driver.quit(); //close
+>>>>>>> cbbc5e715c0d46e5c42ecf3bc3f527b2ddc7ef09
         }
     }
 }
